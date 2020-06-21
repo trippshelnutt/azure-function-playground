@@ -3,7 +3,7 @@ Quick example project to play with Azure Functions.
 
 This project has 1 function that is coded in a class library and 1 function that is in script in Azure.
 
-There are 4 deployment profiles set up:
+4 deployment profiles were set up locally (not checked into git):
 
 - Package Deploy - Release
 - Package Deploy - Debug
@@ -14,9 +14,11 @@ Package Deploy runs in read-only mode that was not allowing another function to 
 
 The Azure resources were configured automatically with the first publish:
 
-- EastUSPlan
+- ASP-trippplaygroundrg-bae1
   - App Service Plan - Y1 Consumption
-- function-playground-tripp
+- tripp-playground
   - App Service
-- trippfunctionplayground
+- tripp-playground
+  - Application Insights
+- trippplayground
   - Storage Account
